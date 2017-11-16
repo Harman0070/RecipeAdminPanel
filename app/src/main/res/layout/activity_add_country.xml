@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:id="@+id/search2">
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="130dp"
+        android:layout_above="@+id/signupText"
+        android:layout_below="@+id/linearLayout">
+
+        <EditText
+            android:id="@+id/country_search2"
+            android:singleLine="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center_vertical"
+            android:hint="Add Country"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:textColorHint="#000" />
+        <EditText
+            android:id="@+id/category_search2"
+            android:singleLine="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center_vertical"
+            android:hint="Add Category"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:textColorHint="#000" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="250dp"
+    android:gravity="center"
+    >
+    <Button
+        android:id="@+id/saveBtn"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+</LinearLayout>
+</FrameLayout>

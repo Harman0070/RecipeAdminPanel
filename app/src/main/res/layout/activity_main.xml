@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.harmandeepsingh.recipeadminpanel.MainActivity">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#fa824b"
+        android:layout_marginTop="1dp"/>
+    <TextView
+        android:id="@+id/countrybt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:text="Click Here To Add Your Country"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#fa824b"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/categorybt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:textSize="20dp"
+        android:text="Click Here To Add Your Category"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#fa824b"
+        android:layout_marginTop="80dp"
+        android:id="@+id/view" />
+
+    <TextView
+        android:id="@+id/deleteCountryBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view"
+        android:text="Click Here To Delete Country"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#fa824b"
+        android:layout_marginTop="120dp"/>
+
+
+</RelativeLayout>
